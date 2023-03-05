@@ -5,6 +5,9 @@ module.exports = {
     fontFamily: {
       cursive: ['cursive']
     },
+    animation: {
+      'spin': "spin 3s linear infinite"
+    },
     extend: {},
   },
   plugins: [],
