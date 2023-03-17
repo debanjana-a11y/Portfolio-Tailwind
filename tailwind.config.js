@@ -10,7 +10,9 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'bgImage': "url('/src/Images/bg.jpg')"
+        'bgImage': "url('/src/Images/bg.jpg')",
+        'bgImageProject': "url('/src/Images/bg-project.jpg')",
+        'bgImageSkills': "url('/src/Images/bg-skills.jpg')"
       }
     }
   },
