@@ -8,7 +8,11 @@ module.exports = {
     animation: {
       'spin': "spin 3s linear infinite"
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bgImage': "url('/src/Images/bg.jpg')"
+      }
+    }
   },
   plugins: [],
 }
