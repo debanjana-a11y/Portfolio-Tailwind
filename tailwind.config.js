@@ -12,7 +12,8 @@ module.exports = {
       backgroundImage: {
         'bgImage': "url('/src/Images/bg.jpg')",
         'bgImageProject': "url('/src/Images/bg-project.jpg')",
-        'bgImageSkills': "url('/src/Images/bg-skills.jpg')"
+        'bgImageSkills': "url('/src/Images/bg-skills.jpg')",
+        'bgImageContact': "url('/src/Images/bg-contact.jpg')"
       }
     }
   },

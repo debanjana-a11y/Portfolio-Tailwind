@@ -47,7 +47,7 @@
             </div>
         </figure>
     </div>
-    <div id="projects" class="bg-bgImageProject bg-center bg-cover bg-no-repeat font-cursive m-0">
+    <div id="projects" class="bg-bgImageProject bg-contain bg-repeat-y font-cursive m-0">
         <div class="flex justify-center text-2xl text-blue-800 italic font-bold underline mb-5 p-5 tracking-widest bg-white bg-opacity-50 rounded-br-full rounded-bl-full">Projects</div>
         <div id="projectContainer" class="rounded-3xl py-10 flex flex-wrap justify-center gap-y-10 md:gap-y-20 ">
             <div id="project1" class="mx-5 md:mx-10 p-5 md:w-1/3 bg-gradient-to-b from-purple-500 to-white rounded-3xl flex flex-col items-center gap-y-5 hover:bg-gradient-to-br hover:drop-shadow-2xl">
@@ -112,37 +112,63 @@
     <div class="bg-bgImageSkills bg-center bg-cover flex flex-col justify-center flex-wrap text-center pb-10 rounded-3xl">
         <div id="skills" class="flex justify-center text-2xl text-blue-800 w-full italic font-bold underline p-2 md:p-5 tracking-widest bg-white bg-opacity-50 rounded-br-full rounded-bl-full">Skills</div>
         <div class="h-full w-full p-5 sm:p-48 flex flex-wrap justify-center gap-x-10 gap-y-10 items-center rounded-3xl">
-            <div class="flex flex-col justify-center p-2 sm:pb-5 gap-y-5 rounded-full bg-rose-900 bg-opacity-50 border-2 border-solid border-white">
+            <div class="flex flex-col justify-center p-2 sm:pb-5 gap-y-5 rounded-full bg-blue-900 bg-opacity-75 border-2 border-solid border-white">
                 <i class="fab fa-html5 text-white text-6xl p-10 rounded-full border-2 border-white border-solid animate-spin" aria-hidden="true"></i>
                 <p><strong class="text-lg text-white pb-2">HTML5</strong></p>
             </div>
-            <div class="flex flex-col justify-center p-2 sm:pb-5 gap-y-5 rounded-full bg-rose-900 bg-opacity-50 border-2 border-solid border-white">
+            <div class="flex flex-col justify-center p-2 sm:pb-5 gap-y-5 rounded-full bg-blue-900 bg-opacity-75 border-2 border-solid border-white">
                 <i class="fab fa-css3 text-white text-6xl p-10 rounded-full border-2 border-white border-solid animate-spin" aria-hidden="true"></i>
                 <p><strong class="text-lg text-white">CSS3</strong></p>
             </div>
-            <div class="flex flex-col justify-center p-2 sm:pb-5 gap-y-5 rounded-full bg-rose-900 bg-opacity-50 border-2 border-solid border-white">
+            <div class="flex flex-col justify-center p-2 sm:pb-5 gap-y-5 rounded-full bg-blue-900 bg-opacity-75 border-2 border-solid border-white">
                 <i class="fab fa-js-square text-white text-6xl p-10 rounded-full border-2 border-white border-solid animate-spin"></i>
                 <p><strong class="text-lg text-white">JavaScript</strong></p>
             </div>
-            <div class="flex flex-col justify-center p-2 sm:pb-5 gap-y-5 rounded-full bg-rose-900 bg-opacity-50 border-2 border-solid border-white">
+            <div class="flex flex-col justify-center p-2 sm:pb-5 gap-y-5 rounded-full bg-blue-900 bg-opacity-75 border-2 border-solid border-white">
                 <i class="fab fa-java text-white text-6xl p-10 rounded-full border-2 border-white border-solid animate-spin"></i>
                 <p><strong class="text-lg text-white">Java</strong></p>
             </div>
-            <div class="flex flex-col justify-center p-2 sm:pb-5 gap-y-5 rounded-full bg-rose-900 bg-opacity-50 border-2 border-solid border-white">
+            <div class="flex flex-col justify-center p-2 sm:pb-5 gap-y-5 rounded-full bg-blue-900 bg-opacity-75 border-2 border-solid border-white">
                 <i class="fas fa-code-branch text-white text-6xl p-10 rounded-full border-2 border-white border-solid animate-spin"></i>
                 <p><strong class="text-lg text-white">Git</strong></p>
             </div>
-            <div class="flex flex-col justify-center p-2 sm:pb-5 gap-y-5 rounded-full bg-rose-900 bg-opacity-50 border-2 border-solid border-white">
+            <div class="flex flex-col justify-center p-2 sm:pb-5 gap-y-5 rounded-full bg-blue-900 bg-opacity-75 border-2 border-solid border-white">
                 <i class="fab fa-python text-white text-6xl p-10 rounded-full border-2 border-white border-solid animate-spin"></i>
                 <p><strong class="text-lg text-white">Python</strong></p>
             </div>
         </div>
     </div>
-    <div class="flex flex-col">
-        <div class="h-20">Contact</div>
-        <div class="flex">
-            <div class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi et voluptas perferendis quasi eveniet consequuntur quidem, iusto, ullam animi officia illo repellat impedit sit necessitatibus cupiditate obcaecati adipisci ad perspiciatis.</div>
-            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique ab non vero totam consectetur assumenda fugit, tempora aspernatur repellendus dicta? Qui eveniet omnis perferendis quae quibusdam nisi deserunt cumque tenetur.</div>
+    <div class="flex justify-center bg-bgImageContact bg-center bg-cover">
+        <div class="flex flex-col text-center bg-white w-1/2 rounded-2xl m-2 sm:m-10 p-5 gap-y-5">
+            <h1 class="text-xl text-teal-800 font-bold">Get in touch!</h1>
+            <div class="flex justify-center space-x-10">
+                <div class="flex flex-col p-5 rounded-lg hover:bg-rose-200 hover:cursor-pointer">
+                    <img class="h-12" src="./Images/twitter.png" alt="">
+                    <strong>Twitter</strong>
+                </div>
+                <div class="flex flex-col p-5 rounded-lg hover:bg-rose-200 hover:cursor-pointer">
+                    <img class="h-12" src="./Images/discord.png" alt="">
+                    <strong>Discord</strong>
+                </div>
+                <div class="flex flex-col p-5 rounded-lg hover:bg-rose-200 hover:cursor-pointer">
+                    <img class="h-12" src="./Images/gmail.png" alt="">
+                    <strong>Mail</strong>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <div class="">Contact Form</div>
+                <div class="flex">
+                    <div class="flex flex-col">
+                        <form action="">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="Type Your Name">
+                            <label for="mail">Mail</label>
+                            <input type="email" id="mail" placeholder="Type Your Mail Id">
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
