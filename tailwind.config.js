@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./dist/*.{html,js}'],
+	content: ['./*.{html,js}'],
 	theme: {
 		fontFamily: {
 			cursive: ['cursive'],
@@ -10,10 +10,10 @@ module.exports = {
 		},
 		extend: {
 			backgroundImage: {
-				bgImage: "url('dist/assets/bg.jpg')",
-				bgImageProject: "url('/dist/assets/bg-project.jpg')",
-				bgImageSkills: "url('/dist/assets/bg-skills.jpg')",
-				bgImageContact: "url('/dist/assets/bg-contact.jpg')",
+				bgImage: "url('./assets/bg.jpg')",
+				bgImageProject: "url('./assets/bg-project.jpg')",
+				bgImageSkills: "url('./assets/bg-skills.jpg')",
+				bgImageContact: "url('./assets/bg-contact.jpg')",
 			},
 		},
 	},
